@@ -11,7 +11,7 @@ let t = 0; // time variable
 function setup() {
   createCanvas(600, 600);
   noStroke();
-  fill(40, 200, 40);
+  fill(100, 600, 80);
 }
 
 function draw() {
@@ -34,5 +34,5 @@ function draw() {
     }
   }
 
-  t = t + 0.01; // update time
+  t = t + 0.09; // update time
 }
